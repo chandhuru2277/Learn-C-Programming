@@ -5,6 +5,7 @@
 // MAIN FUNCTION
 int main(void)
 {
+    // SYNTAX: SIGNED/UNSIGNED DATA_TYPE VARIABLE_NAME;
     signed short signed_short_variable;
     unsigned short unsigned_short_variable;
     printf("\nSize of SHORT: %hd\n", __SIZEOF_SHORT__);
