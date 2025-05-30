@@ -6,7 +6,7 @@ int main(void)
     char *str1 = "abcd1234";
     char *str2 = "abcd6789";
 
-    long int pos = strspn(str1, str2);
-    printf("\nposition: %ld\n", pos);
+    size_t pos = strspn(str1, str2);
+    printf("\nposition: %zu\n", pos);
     return 0;
 }
