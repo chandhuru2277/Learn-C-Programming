@@ -10,7 +10,7 @@ int main(void)
     printf("\nstr2: %s\n", str2);
 
     // DYNAMIC METHOD (without mention size)
-    char str3[] = "Hello"; // character array
+    char str3[] = "Hello"; // array of character or strings
     printf("\nstr3: %s\n", str3);
 
     return 0;
