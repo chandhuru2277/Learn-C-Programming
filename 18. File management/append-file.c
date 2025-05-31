@@ -1,20 +1,19 @@
 #include <stdio.h>
 #include <string.h>
 
-int main()
+int main(void)
 {
-    FILE *fp = fopen("./file_1.txt", "w");
+    FILE *fp = fopen("./file_3.txt", "a");
     if (fp == NULL)
     {
-        perror("file open error");
+        perror("File read is error");
     }
     else
     {
         char buffer[100];
-        printf("\nEnter the message:");
         fgets(buffer, 100, stdin);
         fputs(buffer, fp);
-
+    
         fclose(fp);
     }
     return 0;
